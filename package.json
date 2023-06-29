@@ -1,13 +1,12 @@
 {
   "name": "quarkc-compatibility",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "keywords": [
     "frontend",
     "quark",
     "web components"
   ],
   "description": "Aim to base on quarkc constract a compatible frame",
-  "main": "index.js",
   "scripts": {
     "dev": "npm run start",
     "start": "vite",
@@ -15,6 +14,9 @@
     "prepublishOnly": "npm run build"
   },
   "type": "module",
+  "main": "./lib/index.umd.js",
+  "module": "./lib/index.js",
+  "types": "./lib/types/index.d.ts",
   "author": "https://github.com/a847244052",
   "license": "ISC",
   "dependencies": {
