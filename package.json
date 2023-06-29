@@ -1,6 +1,6 @@
 {
   "name": "quarkc-compatibility",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "frontend",
     "quark",
@@ -17,6 +17,13 @@
   "main": "./lib/index.umd.js",
   "module": "./lib/index.js",
   "types": "./lib/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js",
+      "require": "./lib/index.umd.js",
+      "types": "./lib/types/index.d.ts"
+    }
+  },
   "author": "https://github.com/a847244052",
   "license": "ISC",
   "dependencies": {
