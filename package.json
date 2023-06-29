@@ -14,6 +14,7 @@
     "build": "rimraf lib && vite build --config vite.config.build.ts",
     "prepublishOnly": "npm run build"
   },
+  "type": "module",
   "author": "https://github.com/a847244052",
   "license": "ISC",
   "dependencies": {
