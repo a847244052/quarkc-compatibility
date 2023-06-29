@@ -34,3 +34,7 @@ collapse
       <span slot="content">content test</span>
     </quarkc-collapse>
 ```
+
+## npm
+
+<https://www.npmjs.com/package/quarkc-compatibility>
